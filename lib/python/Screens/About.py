@@ -45,7 +45,7 @@ class About(Screen):
 			EnigmaVersion = EnigmaVersion[0] + " (" + EnigmaVersion[2] + "-" + EnigmaVersion[1] + ")"
 		else:
 			EnigmaVersion = EnigmaVersion[0] + " (" + EnigmaVersion[1] + ")"
-		EnigmaVersion = _("Enigma version: 2") + EnigmaVersion
+		EnigmaVersion = _("Enigma version: ") + EnigmaVersion
 		self["EnigmaVersion"] = StaticText(EnigmaVersion)
 		AboutText += "\n" + EnigmaVersion + "\n"
 
